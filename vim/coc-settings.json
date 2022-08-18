@@ -1,0 +1,16 @@
+{
+  "languageserver": {
+    "terraform": {
+      "command": "terraform-ls",
+      "args": ["serve"],
+      "filetypes": ["terraform", "tf"],
+      "initializationOptions": {}
+    },
+    "sql": {
+      "command": "sql-language-server",
+      "args" : ["up", "--method", "stdio"],
+      "filetypes": ["sql", "mysql"]
+    },
+    "elixir.pathToElixirLS": "/usr/local/Cellar/elixir-ls/0.10.0/libexec/language_server.sh"
+  }
+}
